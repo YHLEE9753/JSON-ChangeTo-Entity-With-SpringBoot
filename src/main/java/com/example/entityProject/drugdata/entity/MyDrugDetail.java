@@ -13,7 +13,7 @@ import java.util.List;
 @Entity
 @Getter
 @Builder
-@Table(name = "myDrugDetail")
+@Table(name = "MyDrugDetail")
 @NoArgsConstructor//(access = AccessLevel.PROTECTED)
 @AllArgsConstructor//(access = AccessLevel.PROTECTED)
 public class MyDrugDetail {

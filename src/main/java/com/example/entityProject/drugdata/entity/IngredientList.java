@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Builder
-@Table(name = "ingredient_list")
+@Table(name = "Ingredient_list")
 @NoArgsConstructor//(access = AccessLevel.PROTECTED)
 @AllArgsConstructor//(access = AccessLevel.PROTECTED)
 public class IngredientList {

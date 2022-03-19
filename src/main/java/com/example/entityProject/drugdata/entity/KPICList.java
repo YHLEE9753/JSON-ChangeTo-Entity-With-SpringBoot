@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Builder
-@Table(name = "kpic_list")
+@Table(name = "Kpic_list")
 @NoArgsConstructor//(access = AccessLevel.PROTECTED)
 @AllArgsConstructor//(access = AccessLevel.PROTECTED)
 public class KPICList {

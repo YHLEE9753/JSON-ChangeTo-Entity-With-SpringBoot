@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.persistence.EntityManager;
@@ -44,6 +45,7 @@ class DrugServiceTest {
 
 
     @Test
+    @Rollback(false) // db 에서 확인해 보자
     public void drug엔티티_저장하기() throws Exception{
         //given
         // 유저 정보 저장
@@ -77,6 +79,6 @@ class DrugServiceTest {
 //        System.out.println(user.getMyDrugs().get(0).getMyDrugDetails().get(0).getMyDrugInfos().get(0).getKpicLists().get(0).getKpic());
         System.out.println(user.getMyDrugs().get(0).getMyDrugDetails().get(0).getMyDrugInfos().get(0).getIngredientList().get(0).getIngredientName());
         System.out.println("!!!!");
-
     }
+
 }

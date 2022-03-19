@@ -13,7 +13,7 @@ import java.util.List;
 @Entity
 @Getter
 @Builder
-@Table(name = "myDrug")
+@Table(name = "MywDrug")
 @NoArgsConstructor//(access = AccessLevel.PROTECTED)
 @AllArgsConstructor//(access = AccessLevel.PROTECTED)
 public class MyDrug {
@@ -53,7 +53,7 @@ public class MyDrug {
     private Long prescribeCnt; // 처방 횟수
 
     @Column(name = "treat_medicalnm")
-    private String treatMedicalnm;
+    private String treatMedicalnm; //병의원(약국)명
 
     public void changeUser(User user) {
         this.user = user;
