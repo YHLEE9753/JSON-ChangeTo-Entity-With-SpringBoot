@@ -1,0 +1,688 @@
+{
+  "errCode": "0000",
+  "errMsg": "success",
+  "result": "SUCCESS",
+  "data": {
+    "MEDICINELIST": [
+      {
+        "TREATTYPE": "처방조제",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20220120",
+        "MEDICINECNT": "3",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "1",
+        "TREATMEDICALNM": "한가람약국[남동구 남동대로]",
+        "DETAILLIST": [
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "록사렉스캡슐75mg (LOXALEX CAP)",
+            "TREATDATE": "20220120",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "팜젠사이언스",
+                "PRODUCTNM": "록사렉스캡슐75mg LOXALEX CAP",
+                "MEDICINEGROUP": "소화성궤양용제(232)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [],
+                "PAYINFO": "670100320-272원캡슐(20220207) / 1",
+                "ATC": "A02BA06 : ROXATIDINE",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "서방캡슐",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "록사티딘아세테이트염산염(Roxatidine Acetate Hydrochloride)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "소화성궤양용제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "3"
+          },
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "티메롤8시간이알서방정 (Timerol 8 hours ER Tab.)",
+            "TREATDATE": "20220120",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]12세미만",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "서울제약",
+                "PRODUCTNM": "티메롤8시간이알서방정 Timerol 8 hours ER Tab.",
+                "MEDICINEGROUP": "해열, 진통, 소염제(114)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "아세트아미노펜(Acetaminophen) : 통증 질환< 비마약성 진통제<중추성 진통제"
+                  }
+                ],
+                "PAYINFO": "652901880-51원정(20220207) / 1",
+                "ATC": "N02BE01 : PARACETAMOL(ACETAMINOPHEN)",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "서방정",
+                "SINGLEYN": "",
+                "SPECIALYN": "2",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "아세트아미노펜(Acetaminophen)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "해열, 진통, 소염제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "3"
+          },
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "로스파정 (LOSPA TAB.)",
+            "TREATDATE": "20220120",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "팜젠사이언스",
+                "PRODUCTNM": "로스파정 LOSPA TAB.",
+                "MEDICINEGROUP": "진경제(124)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "티로프라미드염산염(Tiropramide Hydrochloride) : 소화기계질환< 진경제<기타"
+                  }
+                ],
+                "PAYINFO": "670100300-135원정(20220207) / 1",
+                "ATC": "A03AC05 : TIROPRAMIDE",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "정제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "티로프라미드염산염(Tiropramide Hydrochloride)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "진경제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "3"
+          },
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "미피드정 (Mipide Tab.)",
+            "TREATDATE": "20220120",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "팜젠사이언스",
+                "PRODUCTNM": "미피드정 Mipide Tab.",
+                "MEDICINEGROUP": "소화성궤양용제(232)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "레바미피드(Rebamipide) : 소화기계질환< 소화성궤양 치료제<점막보호제"
+                  }
+                ],
+                "PAYINFO": "670103320-103원정(20220207) / 1",
+                "ATC": "A02BX14 : REBAMIPIDE",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "정제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "레바미피드(Rebamipide)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "소화성궤양용제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "3"
+          }
+        ]
+      },
+      {
+        "TREATTYPE": "일반외래",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20220120",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "1",
+        "TREATMEDICALNM": "바른성모내과의원[남동구 남동대로]",
+        "DETAILLIST": []
+      },
+      {
+        "TREATTYPE": "일반외래",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20211231",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "0",
+        "TREATMEDICALNM": "(한길의료재단)한길안과병원[부평구 부평대로]",
+        "DETAILLIST": [
+          {
+            "TREATTYPE": "외래",
+            "MEDICINENM": "트로페린점안액(1회용) (Tropherine Eye Drops(single use))",
+            "TREATDATE": "20211231",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "한미약품",
+                "PRODUCTNM": "트로페린점안액(1회용) Tropherine Eye Drops(single use)",
+                "MEDICINEGROUP": "안과용제(131)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "트로픽아미드(Tropicamide) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 산동제<항콜린제"
+                  },
+                  {
+                    "KPIC": "페닐레프린염산염(Phenylephrine Hydrochloride) : 순환기계질환< 저혈압 치료제<저혈압 치료"
+                  },
+                  {
+                    "KPIC": "페닐레프린염산염(Phenylephrine Hydrochloride) : 호흡기계질환< 비강 질환 치료제<비충혈 제거제"
+                  },
+                  {
+                    "KPIC": "페닐레프린염산염(Phenylephrine Hydrochloride) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 산동제<교감신경 흥분제"
+                  }
+                ],
+                "PAYINFO": "643505741-242원mL/관(20220207) / 0.8",
+                "ATC": "S01FA56 : TROPICAMIDE, COMBINATIONS",
+                "ADMINISTERPATH": "눈",
+                "SHAPE": "점안제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "트로픽아미드(Tropicamide)mg/mL"
+                  },
+                  {
+                    "INGREDIENTNM": "페닐레프린염산염(Phenylephrine Hydrochloride)mg/mL"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "안과용제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "1"
+          }
+        ]
+      },
+      {
+        "TREATTYPE": "치과외래",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20211129",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "0",
+        "TREATMEDICALNM": "지음치과의원[노원구 동일로]",
+        "DETAILLIST": [
+          {
+            "TREATTYPE": "외래",
+            "MEDICINENM": "유니온리도카인에피네프린주(1:100,000) (Union Lidocaine Epinephrine Inj. (1:100,000))",
+            "TREATDATE": "20211129",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]2등급 : 명확한 임상적 근거 또는 사유가 있는 경우 부득이하게 사용lidocaine HCl, epinephrine bitartrate",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "한국유니온제약",
+                "PRODUCTNM": "유니온리도카인에피네프린주(1:100,000) Union Lidocaine Epinephrine Inj. (1:100,000)",
+                "MEDICINEGROUP": "국소마취제(121)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "에피네프린타르타르산염(Epinephrine Bitartrate) : 순환기계질환< 기타 순환기계 약물<아드레날린 효능약"
+                  },
+                  {
+                    "KPIC": "에피네프린타르타르산염(Epinephrine Bitartrate) : 호흡기계질환< 기관지 천식(COPD 포함) 치료제 (흡입)<교감신경성 기관지 확장제"
+                  },
+                  {
+                    "KPIC": "에피네프린타르타르산염(Epinephrine Bitartrate) : 호흡기계질환< 비강 질환 치료제<비충혈 제거제"
+                  },
+                  {
+                    "KPIC": "에피네프린타르타르산염(Epinephrine Bitartrate) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 녹내장 치료제<교감신경 자극제"
+                  },
+                  {
+                    "KPIC": "에피네프린타르타르산염(Epinephrine Bitartrate) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 치과ㆍ구강용 약물<기타"
+                  },
+                  {
+                    "KPIC": "리도카인염산염수화물(Lidocaine Hydrochloride Hydrate) : 순환기계질환< 혈관보호제<치질과 항문열창의 국소용 제제"
+                  },
+                  {
+                    "KPIC": "리도카인염산염수화물(Lidocaine Hydrochloride Hydrate) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 기타 안과용 약물<국소 마취제"
+                  },
+                  {
+                    "KPIC": "리도카인염산염수화물(Lidocaine Hydrochloride Hydrate) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 점이용 약물<기타"
+                  },
+                  {
+                    "KPIC": "리도카인염산염수화물(Lidocaine Hydrochloride Hydrate) : 피부/피하조직질환< 기타 약물<국소마취 작용"
+                  },
+                  {
+                    "KPIC": "리도카인염산염수화물(Lidocaine Hydrochloride Hydrate) : 기타 약물< 국소마취제<말초 지각신경 차단"
+                  }
+                ],
+                "PAYINFO": "665506310-356원mL/앰플(20220207) / 1.8",
+                "ATC": "N01BB52 : LIDOCAINE, COMBINATIONS",
+                "ADMINISTERPATH": "주사",
+                "SHAPE": "주사제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "에피네프린타르타르산염(Epinephrine Bitartrate)mg/mL"
+                  },
+                  {
+                    "INGREDIENTNM": "리도카인염산염수화물(Lidocaine Hydrochloride Hydrate)mg/mL"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "국소마취제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "1"
+          }
+        ]
+      },
+      {
+        "TREATTYPE": "처방조제",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20210831",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "1",
+        "TREATMEDICALNM": "살맛나는온누리약국[부평구 부평대로]",
+        "DETAILLIST": [
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "디쿠아스에스점안액3%(1회용)(0.4mL) (Diquas-S Eye Drops 3%(single use)(0.4mL))",
+            "TREATDATE": "20210831",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "미쓰비시다나베파마코리아",
+                "PRODUCTNM": "디쿠아스에스점안액3%(1회용)(0.4mL) Diquas-S Eye Drops 3%(single use)(0.4mL)",
+                "MEDICINEGROUP": "안과용제(131)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [],
+                "PAYINFO": "653301021-481원mL/관(20220207) / 0.4",
+                "ATC": "S01XA20 : ARTIFICIAL TEARS AND OTHER INDIFFERENT PREPARATIONS",
+                "ADMINISTERPATH": "눈",
+                "SHAPE": "점안제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "디쿠아포솔나트륨(Diquafosol Tetrasodium)mg/mL"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "안과용제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "1"
+          }
+        ]
+      },
+      {
+        "TREATTYPE": "일반외래",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20210831",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "1",
+        "TREATMEDICALNM": "(한길의료재단)한길안과병원[부평구 부평대로]",
+        "DETAILLIST": []
+      },
+      {
+        "TREATTYPE": "일반외래",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20210818",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "0",
+        "TREATMEDICALNM": "생이음한방병원[하남시 미사강변대로]",
+        "DETAILLIST": []
+      },
+      {
+        "TREATTYPE": "일반외래",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20210615",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "1",
+        "TREATMEDICALNM": "속편한내과의원[남동구 인하로507번길]",
+        "DETAILLIST": []
+      },
+      {
+        "TREATTYPE": "처방조제",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20210615",
+        "MEDICINECNT": "5",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "1",
+        "TREATMEDICALNM": "로데오약국[남동구 인하로507번길]",
+        "DETAILLIST": [
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "에소듀오정20/800mg (Eso Duo Tab. 20/800mg)",
+            "TREATDATE": "20210615",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]2등급 : 명확한 임상적 근거 또는 사유가 있는 경우 부득이하게 사용esomeprazole magnesium (as esomeprazole) + sodium bicarbonate",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "종근당",
+                "PRODUCTNM": "에소듀오정20/800mg Eso Duo Tab. 20/800mg",
+                "MEDICINEGROUP": "소화성궤양용제(232)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "에스오메프라졸마그네슘삼수화물(Esomeprazole Magnesium Trihydrate) : 소화기계질환< 소화성궤양 치료제<수소펌프 저해제 (PPIs)"
+                  },
+                  {
+                    "KPIC": "탄산수소나트륨(Sodium Bicarbonate) : 소화기계질환< 소화성궤양 치료제<제산제"
+                  },
+                  {
+                    "KPIC": "탄산수소나트륨(Sodium Bicarbonate) : 기타 약물< 관류용제<세정액제"
+                  }
+                ],
+                "PAYINFO": "643308040-720원정(20220207) / 1",
+                "ATC": "A02BC : PROTON PUMP INHIBITORS",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "정제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "에스오메프라졸마그네슘삼수화물(Esomeprazole Magnesium Trihydrate)mg"
+                  },
+                  {
+                    "INGREDIENTNM": "탄산수소나트륨(Sodium Bicarbonate)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "소화성궤양용제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "5"
+          },
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "알드린정 (Aldrin Tab.)",
+            "TREATDATE": "20210615",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "일양약품",
+                "PRODUCTNM": "알드린정 Aldrin Tab.",
+                "MEDICINEGROUP": "제산제(234)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "알마게이트(Almagate) : 소화기계질환< 소화성궤양 치료제<제산제"
+                  }
+                ],
+                "PAYINFO": "641701090-45원정(20220207) / 1",
+                "ATC": "A02AD03 : ALMAGATE",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "정제",
+                "SINGLEYN": "",
+                "SPECIALYN": "2",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "알마게이트(Almagate)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "제산제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "5"
+          },
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "레프정 (Lep Tab.)",
+            "TREATDATE": "20210615",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]2등급 : 명확한 임상적 근거 또는 사유가 있는 경우 부득이하게 사용levosulpiride",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "바이넥스",
+                "PRODUCTNM": "레프정 Lep Tab.",
+                "MEDICINEGROUP": "기타의 소화기관용약(239)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "레보설피리드(Levosulpiride) : 소화기계질환< 위장관 운동 조절제<소화관 운동 조절"
+                  }
+                ],
+                "PAYINFO": "643100170-119원정(20220207) / 1",
+                "ATC": "A03FA : PROPULSIVES",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "정제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "레보설피리드(Levosulpiride)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "기타의 소화기관용약",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "5"
+          },
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "무코텍트서방정150mg (Mucotect SR Tab. 150mg)",
+            "TREATDATE": "20210615",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "녹십자",
+                "PRODUCTNM": "무코텍트서방정150mg Mucotect SR Tab. 150mg",
+                "MEDICINEGROUP": "소화성궤양용제(232)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [],
+                "PAYINFO": "",
+                "ATC": "",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "서방정",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "레바미피드(Rebamipide)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "소화성궤양용제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "5"
+          },
+          {
+            "TREATTYPE": "약국",
+            "MEDICINENM": "제이부틴정 (J-butine Tab.)",
+            "TREATDATE": "20210615",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "태극제약",
+                "PRODUCTNM": "제이부틴정 J-butine Tab.",
+                "MEDICINEGROUP": "기타의 소화기관용약(239)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "트리메부틴말레산염(Trimebutine Maleate) : 소화기계질환< 위장관 운동 조절제<항콜린제"
+                  }
+                ],
+                "PAYINFO": "",
+                "ATC": "A03AA05 : TRIMEBUTINE",
+                "ADMINISTERPATH": "경구(내용고형)",
+                "SHAPE": "정제",
+                "SINGLEYN": "",
+                "SPECIALYN": "2",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "트리메부틴말레산염(Trimebutine Maleate)mg"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "기타의 소화기관용약",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "5"
+          }
+        ]
+      },
+      {
+        "TREATTYPE": "일반외래",
+        "VISITCNT": "1",
+        "TREATDSNM": "이용훈",
+        "TREATDATE": "20210615",
+        "MEDICINECNT": "1",
+        "TREATDSGB": "1",
+        "PRESCRIBECNT": "0",
+        "TREATMEDICALNM": "(한길의료재단)한길안과병원[부평구 부평대로]",
+        "DETAILLIST": [
+          {
+            "TREATTYPE": "외래",
+            "MEDICINENM": "트로페린점안액(1회용) (Tropherine Eye Drops(single use))",
+            "TREATDATE": "20210615",
+            "DRUGINFOLIST": [
+              {
+                "DUR": [
+                  {
+                    "AGETABOO": "[연령금기]없음",
+                    "PREGNANTTABOO": "[임부금기]없음",
+                    "COMBINEDTABOO": "[병용금기]없음"
+                  }
+                ],
+                "MAKINGCOMPANY": "한미약품",
+                "PRODUCTNM": "트로페린점안액(1회용) Tropherine Eye Drops(single use)",
+                "MEDICINEGROUP": "안과용제(131)",
+                "SALESCOMPANY": "",
+                "KPICLIST": [
+                  {
+                    "KPIC": "트로픽아미드(Tropicamide) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 산동제<항콜린제"
+                  },
+                  {
+                    "KPIC": "페닐레프린염산염(Phenylephrine Hydrochloride) : 순환기계질환< 저혈압 치료제<저혈압 치료"
+                  },
+                  {
+                    "KPIC": "페닐레프린염산염(Phenylephrine Hydrochloride) : 호흡기계질환< 비강 질환 치료제<비충혈 제거제"
+                  },
+                  {
+                    "KPIC": "페닐레프린염산염(Phenylephrine Hydrochloride) : 눈ㆍ귀ㆍ치과ㆍ구강용 약물< 산동제<교감신경 흥분제"
+                  }
+                ],
+                "PAYINFO": "643505741-242원mL/관(20220207) / 0.8",
+                "ATC": "S01FA56 : TROPICAMIDE, COMBINATIONS",
+                "ADMINISTERPATH": "눈",
+                "SHAPE": "점안제",
+                "SINGLEYN": "",
+                "SPECIALYN": "1",
+                "INGREDIENTNMLIST": [
+                  {
+                    "INGREDIENTNM": "트로픽아미드(Tropicamide)mg/mL"
+                  },
+                  {
+                    "INGREDIENTNM": "페닐레프린염산염(Phenylephrine Hydrochloride)mg/mL"
+                  }
+                ]
+              }
+            ],
+            "MEDICINEEFFECT": "안과용제",
+            "PRESCRIBECNT": "0",
+            "ADMINISTERCNT": "1"
+          }
+        ]
+      }
+    ],
+    "ETRACK": "",
+    "ERRMSG": "",
+    "ECODE": "",
+    "ERRDOC": "",
+    "RESULT": "SUCCESS"
+  }
+}
