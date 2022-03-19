@@ -1,5 +1,5 @@
 # JSON-Entity-With-SpringBoot
-JSON 데이터 정리 후 JPA 엔티티 저장
+마이데이터 투약 약물 JSON 데이터 정리 후 JPA 엔티티 저장
 
 JSON 데이터파일 엔티티 repository 저장 후 테스트 로직<br>
 JSON 파일은 entityProject/service/drugInfo.json 위치에 있으면,<br>
