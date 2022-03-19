@@ -66,7 +66,6 @@ class DrugServiceTest {
                 .encryptedJumin(encryptedJumin)
                 .phoneNumber(phoneNumber)
                 .carrier(carrier)
-//                .myDrugs(new ArrayList<>())
                 .build();
         Long savedId = userService.join(user);
         em.persist(user);
@@ -83,7 +82,6 @@ class DrugServiceTest {
 
         // when
         JPAQueryFactory query = new JPAQueryFactory(em);
-//        QHello qHello = QHello.hello;
 //
 //        Hello result = query
 //                .selectFrom(qHello)
