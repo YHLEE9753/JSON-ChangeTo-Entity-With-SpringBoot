@@ -1,10 +1,7 @@
 package com.example.entityProject.drugdata.entity;
 
 import com.example.entityProject.user.entity.User;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -14,8 +11,8 @@ import java.util.List;
 @Getter
 @Builder
 @Table(name = "MywDrug")
-@NoArgsConstructor//(access = AccessLevel.PROTECTED)
-@AllArgsConstructor//(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor(access = AccessLevel.PROTECTED)
 public class MyDrug {
 
     @Id
@@ -28,6 +25,7 @@ public class MyDrug {
     private User user;
 
     @OneToMany(mappedBy = "myDrug") // 1:다 매핑
+    @Builder.Default
     private List<MyDrugDetail> myDrugDetails = new ArrayList<>();
 
     // 투약정보 type1

@@ -1,10 +1,7 @@
 package com.example.entityProject.drugdata.entity;
 
 import com.example.entityProject.user.entity.User;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -14,8 +11,8 @@ import java.util.List;
 @Getter
 @Builder
 @Table(name = "MyDrugDetail")
-@NoArgsConstructor//(access = AccessLevel.PROTECTED)
-@AllArgsConstructor//(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor(access = AccessLevel.PROTECTED)
 public class MyDrugDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -27,6 +24,7 @@ public class MyDrugDetail {
     private MyDrug myDrug;
 
     @OneToMany(mappedBy = "myDrugDetail") // 1:다 매핑
+    @Builder.Default
     private List<MyDrugInfo> myDrugInfos = new ArrayList<>();
 
     @Column(name = "detail_treat_type")

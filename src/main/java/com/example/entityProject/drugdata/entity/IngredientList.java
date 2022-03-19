@@ -9,8 +9,8 @@ import javax.persistence.*;
 @Getter
 @Builder
 @Table(name = "Ingredient_list")
-@NoArgsConstructor//(access = AccessLevel.PROTECTED)
-@AllArgsConstructor//(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor(access = AccessLevel.PROTECTED)
 public class IngredientList {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

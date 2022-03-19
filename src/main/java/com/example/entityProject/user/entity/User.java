@@ -16,8 +16,8 @@ import java.util.UUID;
 @Getter
 @Builder
 @Table(name = "user")
-@NoArgsConstructor//(access = AccessLevel.PROTECTED) // 테스트를 위해 임시로 Public, 의도한 코드는 PROTECTED
-@AllArgsConstructor//(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED) // 테스트를 위해 임시로 Public, 의도한 코드는 PROTECTED
+@AllArgsConstructor(access = AccessLevel.PROTECTED)
 public class User {
 
     @Id
@@ -26,6 +26,7 @@ public class User {
     private Long id;
 
     @OneToMany(mappedBy = "user") // 1:다 매핑
+    @Builder.Default
     private List<MyDrug> myDrugs = new ArrayList<>();
 
     // 카카오 로그인 입력 데이터

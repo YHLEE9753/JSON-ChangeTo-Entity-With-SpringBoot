@@ -57,7 +57,6 @@ public class DrugJSONRepository {
                         .treatdsgb(treatdsgb)
                         .prescribeCnt(prescribecnt)
                         .treatMedicalnm(treatmedicalnm)
-                        .myDrugDetails(new ArrayList<>())
                         .build();
                 myDrug.changeUser(user);
                 em.persist(myDrug);
@@ -84,7 +83,6 @@ public class DrugJSONRepository {
                             .medicineEffect(medicineeffect)
                             .prescribeCnt(prescribecnt1)
                             .administerCnt(administercnt)
-                            .myDrugInfos(new ArrayList<>())
                             .build();
                     myDrugDetail.changeMyDrug(myDrug);
                     em.persist(myDrugDetail);
@@ -133,8 +131,6 @@ public class DrugJSONRepository {
                                 .shape(shape)
                                 .singleYn(singleyn)
                                 .specialYn(specialyn)
-                                .ingredientList(new ArrayList<>())
-                                .kpicLists(new ArrayList<>())
                                 .build();
                         myDrugInfo.changeMyDrugDetail(myDrugDetail);
                         em.persist(myDrugInfo);

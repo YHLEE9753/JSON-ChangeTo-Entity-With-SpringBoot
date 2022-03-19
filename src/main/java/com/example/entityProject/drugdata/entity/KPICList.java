@@ -9,8 +9,8 @@ import javax.persistence.*;
 @Getter
 @Builder
 @Table(name = "Kpic_list")
-@NoArgsConstructor//(access = AccessLevel.PROTECTED)
-@AllArgsConstructor//(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor(access = AccessLevel.PROTECTED)
 public class KPICList {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

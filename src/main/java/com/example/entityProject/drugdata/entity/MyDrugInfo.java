@@ -1,9 +1,6 @@
 package com.example.entityProject.drugdata.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -13,8 +10,8 @@ import java.util.List;
 @Getter
 @Builder
 @Table(name = "MyDrugInfo")
-@NoArgsConstructor//(access = AccessLevel.PROTECTED)
-@AllArgsConstructor//(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor(access = AccessLevel.PROTECTED)
 public class MyDrugInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -27,9 +24,11 @@ public class MyDrugInfo {
 
     // 일대 다 투약 성분(타입 3번의 경우에 해당)
     @OneToMany(mappedBy = "myDrugInfo") // 1:다 매핑
+    @Builder.Default
     private List<IngredientList> ingredientList = new ArrayList<>(); // Drug_성분명
 
     @OneToMany(mappedBy = "myDrugInfo") // 1:다 매핑
+    @Builder.Default
     private List<KPICList> kpicLists = new ArrayList<>(); // Drug_KPIC 약효분류
 
 

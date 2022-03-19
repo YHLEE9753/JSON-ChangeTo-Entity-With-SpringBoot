@@ -7,6 +7,8 @@ import com.example.entityProject.user.entity.Carrier;
 import com.example.entityProject.user.entity.User;
 import com.example.entityProject.user.repository.UserRepository;
 import com.example.entityProject.user.service.UserService;
+import com.fasterxml.jackson.databind.deser.std.StdKeyDeserializer;
+import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,7 +49,7 @@ class DrugServiceTest {
     @Test
     @Rollback(false) // db 에서 확인해 보자
     public void drug엔티티_저장하기() throws Exception{
-        //given
+        // given
         // 유저 정보 저장
         String nickname = "홍길동";
         String email = "dydrkfl@naver.com";
@@ -57,15 +59,14 @@ class DrugServiceTest {
         String phoneNumber = "01012345678";
         Carrier carrier = Carrier.SKT;
 
-        User user = new User();
-        user = User.builder()
+        User user = User.builder()
                 .nickname(nickname)
                 .email(email)
                 .name(name)
                 .encryptedJumin(encryptedJumin)
                 .phoneNumber(phoneNumber)
                 .carrier(carrier)
-                .myDrugs(new ArrayList<>())
+//                .myDrugs(new ArrayList<>())
                 .build();
         Long savedId = userService.join(user);
         em.persist(user);
@@ -79,6 +80,16 @@ class DrugServiceTest {
 //        System.out.println(user.getMyDrugs().get(0).getMyDrugDetails().get(0).getMyDrugInfos().get(0).getKpicLists().get(0).getKpic());
         System.out.println(user.getMyDrugs().get(0).getMyDrugDetails().get(0).getMyDrugInfos().get(0).getIngredientList().get(0).getIngredientName());
         System.out.println("!!!!");
+
+        // when
+        JPAQueryFactory query = new JPAQueryFactory(em);
+//        QHello qHello = QHello.hello;
+//
+//        Hello result = query
+//                .selectFrom(qHello)
+//                .fetchOne();
+        // then
+
     }
 
 }
