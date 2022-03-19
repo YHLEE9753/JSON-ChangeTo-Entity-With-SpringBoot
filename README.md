@@ -8,4 +8,5 @@ entityProject/drugdata/service/DrugService 에 있는 readJson 함수에 파일 
 
 
 ### 간단한 엔티티 설계 구조
-![엔티티구조-simple](https://user-images.githubusercontent.com/71916223/159112224-33f95fea-54f0-48df-8208-42192b7747a5.PNG)
+![entity](https://user-images.githubusercontent.com/71916223/159119698-b30177c7-67d4-48b1-a0e8-2ca5adb1ed9a.PNG)
+
